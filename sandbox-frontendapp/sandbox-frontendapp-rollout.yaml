@@ -24,9 +24,9 @@ spec:
         image: harbor.hqokd.nshcloud.com/sandbox-frontendapp/sandbox-frontendapp
         resources:
           limits:
-            cpu: 50m
+            cpu: 200m
           requests:
-            cpu: 20m
+            cpu: 100m
         imagePullPolicy: Always
         ports:
         - name: http
