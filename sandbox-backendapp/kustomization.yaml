@@ -11,4 +11,4 @@ resources:
 
 images:
 - name: harbor.hqokd.nshcloud.com/sandbox-backendapp/sandbox-backendapp
-  newTag: "v1.0"
+  newTag: "v2.1"
