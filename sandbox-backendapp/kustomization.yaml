@@ -5,6 +5,8 @@ resources:
 - sandbox-backendapp-svc.yaml
 - sandbox-backendapp-svc-preview.yaml
 - sandbox-backendapp-rollout.yaml
+- sandbox-backendapp-route.yaml
+- sandbox-backendapp-route-preview.yaml
 
 
 images:
