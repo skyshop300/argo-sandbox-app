@@ -22,6 +22,11 @@ spec:
       containers:
       - name: sandbox-backendapp
         image: harbor.hqokd.nshcloud.com/sandbox-backendapp/sandbox-backendapp
+        resources:
+          limits:
+            memory: 600Mi
+          requests:
+            memory: 500Mi
         imagePullPolicy: Always
         ports:
         - name: http
