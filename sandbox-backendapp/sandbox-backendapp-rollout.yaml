@@ -24,9 +24,9 @@ spec:
         image: harbor.hqokd.nshcloud.com/sandbox-backendapp/sandbox-backendapp
         resources:
           limits:
-            memory: 600Mi
+            cpu: 300m
           requests:
-            memory: 500Mi
+            cpu: 100m
         imagePullPolicy: Always
         ports:
         - name: http
