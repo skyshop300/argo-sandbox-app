@@ -11,4 +11,4 @@ resources:
 
 images:
 - name: harbor.hqokd.nshcloud.com/sandbox-frontendapp/sandbox-frontendapp
-  newTag: "v3.3.5"
+  newTag: "v5.0.0"
